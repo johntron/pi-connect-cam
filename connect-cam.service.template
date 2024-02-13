@@ -1,0 +1,13 @@
+[Unit]
+Description=Send snapshots to Prusa Connect
+After=multi-user.target
+
+[Service]
+Type=simple
+User=$USERNAME
+ExecStart=/bin/bash $OUTPUT_SCRIPT_PATH
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target
+
