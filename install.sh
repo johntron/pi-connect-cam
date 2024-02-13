@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -x
+# set -x
 
 if [ "$#" -ne 3 ]; then
     echo "Usage: $0 <username> <token> <fingerprint>"
