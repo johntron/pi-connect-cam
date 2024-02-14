@@ -22,8 +22,8 @@ It just pipes the output of libcamera-jpeg to a curl command. The curl sends the
 2. Flash Pi OS to your SD card - it's useful to configure WiFi and SSH at this point using Pi Imager.
 3. Insert SD card and ensure the device connects to your network
 4. Connect to the device via SSH
-5. Download this codebase using [the link from the release page](https://github.com/johntron/pi-connect-cam/releases/latest). e.g. `curl -OL https://github.com/johntron/pi-connect-cam/archive/refs/tags/v0.1.tar.gz`
-6. Extract: `tar -xzf v0.1.tar.gz`
+5. Download this codebase using [the link from the release page](https://github.com/johntron/pi-connect-cam/releases/latest). e.g. `curl -OL https://api.github.com/repos/johntron/pi-connect-cam/tarball/main`
+6. Extract: `tar -xzf johntron-pi-connect-cam*.tar.gz`
 7. Make executable: `chmod u+x install.sh`
 7. Run the install script: `sudo ./install.sh`
 
